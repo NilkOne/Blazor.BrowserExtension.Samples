@@ -6,6 +6,8 @@ Each directory contains the source file in `src` and the published files in `dis
 
 ## Samples
 
+You can test this sample by visiting https://en.wikipedia.org/wiki/Blazor
+
 ### Messaging
 ![Messaging Demo](Messaging/Demo.gif)
 - Runtime Messaging API

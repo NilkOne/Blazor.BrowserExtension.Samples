@@ -8,6 +8,7 @@
             </div>
             <div class="text-container">
                 <h1>My Sidebar</h1>
+                <p>Author is @Author</p>
                 <p>This sidebar content is directly injected into the page.</p>
                 <p>Alternatively, you can also use an iframe to embed another page as the sidebar content. This approach is better in isolating the styling of the sidebar from being affected by the page's CSS.</p>
             </div>
@@ -16,6 +17,13 @@
 
 @code {
     private bool isCollapsed = true;
+
+    [Parameter] public string Author { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        
+    }
 
     private void Toggle()
     {
