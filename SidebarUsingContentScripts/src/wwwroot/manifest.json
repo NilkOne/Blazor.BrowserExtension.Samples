@@ -21,7 +21,8 @@
       "resources": [
         "framework/*",
         "content/*",
-        "app.js"
+        "app.js",
+        "interop.js"
       ],
       "matches": [ "<all_urls>" ]
     }
